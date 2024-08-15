@@ -8,19 +8,19 @@
       
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.2.16">
     
     
       
-        <title>Plotting - SUMO - CASTEP Docs</title>
+        <title>Running-Large-Calculations - CASTEP Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.1c3799f8.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.1c3799f8.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cc9b2e1e.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -35,9 +35,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,6 +60,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#sec:parallelism" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -70,7 +75,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="CASTEP Docs" class="md-header__button md-logo" aria-label="CASTEP Docs" data-md-component="logo">
+    <a href="../../../.." title="CASTEP Docs" class="md-header__button md-logo" aria-label="CASTEP Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -89,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Plotting - SUMO
+              Running-Large-Calculations
             
           </span>
         </div>
@@ -156,7 +161,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="CASTEP Docs" class="md-nav__button md-logo" aria-label="CASTEP Docs" data-md-component="logo">
+    <a href="../../../.." title="CASTEP Docs" class="md-nav__button md-logo" aria-label="CASTEP Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -175,7 +180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -188,12 +193,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -242,7 +249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Getting_Started/intro/" class="md-nav__link">
+      <a href="../../../Getting_Started/intro/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -256,7 +263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Getting_Started/built_in_help/" class="md-nav__link">
+      <a href="../../../Getting_Started/built_in_help/" class="md-nav__link">
         Command line help
       </a>
     </li>
@@ -270,7 +277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Getting_Started/running_castep/" class="md-nav__link">
+      <a href="../../../Getting_Started/running_castep/" class="md-nav__link">
         Running CASTEP
       </a>
     </li>
@@ -284,7 +291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Getting_Started/basic_cell_file/" class="md-nav__link">
+      <a href="../../../Getting_Started/basic_cell_file/" class="md-nav__link">
         cell File
       </a>
     </li>
@@ -298,7 +305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Getting_Started/basic_param_file/" class="md-nav__link">
+      <a href="../../../Getting_Started/basic_param_file/" class="md-nav__link">
         param File
       </a>
     </li>
@@ -312,7 +319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Getting_Started/restarting/" class="md-nav__link">
+      <a href="../../../Getting_Started/restarting/" class="md-nav__link">
         Checkpoint and Restart
       </a>
     </li>
@@ -359,7 +366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Groundstate/intro/" class="md-nav__link">
+      <a href="../../../Groundstate/intro/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -373,7 +380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Groundstate/dftd/" class="md-nav__link">
+      <a href="../../../Groundstate/dftd/" class="md-nav__link">
         Dispersion Corrections
       </a>
     </li>
@@ -387,7 +394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Groundstate/soc/" class="md-nav__link">
+      <a href="../../../Groundstate/soc/" class="md-nav__link">
         Spin Orbit Coupling
       </a>
     </li>
@@ -401,7 +408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Groundstate/spin_constraints/" class="md-nav__link">
+      <a href="../../../Groundstate/spin_constraints/" class="md-nav__link">
         Spin Constraints
       </a>
     </li>
@@ -415,7 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Groundstate/population_analysis/" class="md-nav__link">
+      <a href="../../../Groundstate/population_analysis/" class="md-nav__link">
         Population analysis
       </a>
     </li>
@@ -429,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Groundstate/ELF/" class="md-nav__link">
+      <a href="../../../Groundstate/ELF/" class="md-nav__link">
         ELF
       </a>
     </li>
@@ -476,7 +483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Geometry_Optimisation/overview/" class="md-nav__link">
+      <a href="../../../Geometry_Optimisation/overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -490,7 +497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Geometry_Optimisation/keywords/" class="md-nav__link">
+      <a href="../../../Geometry_Optimisation/keywords/" class="md-nav__link">
         Keywords
       </a>
     </li>
@@ -504,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Geometry_Optimisation/constraints/" class="md-nav__link">
+      <a href="../../../Geometry_Optimisation/constraints/" class="md-nav__link">
         Constraints
       </a>
     </li>
@@ -518,7 +525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Geometry_Optimisation/files/" class="md-nav__link">
+      <a href="../../../Geometry_Optimisation/files/" class="md-nav__link">
         Files
       </a>
     </li>
@@ -532,7 +539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Geometry_Optimisation/tools/" class="md-nav__link">
+      <a href="../../../Geometry_Optimisation/tools/" class="md-nav__link">
         Tools
       </a>
     </li>
@@ -579,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/overview/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/overview/" class="md-nav__link">
         MD Overview
       </a>
     </li>
@@ -593,7 +600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/basics/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/basics/" class="md-nav__link">
         MD Basics
       </a>
     </li>
@@ -607,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/restarts/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/restarts/" class="md-nav__link">
         MD Restarts
       </a>
     </li>
@@ -621,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/files/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/files/" class="md-nav__link">
         MD Files
       </a>
     </li>
@@ -635,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/keywords/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/keywords/" class="md-nav__link">
         MD Keywords
       </a>
     </li>
@@ -649,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/tools/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/tools/" class="md-nav__link">
         MD Tools
       </a>
     </li>
@@ -663,7 +670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/pimd/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/pimd/" class="md-nav__link">
         PIMD
       </a>
     </li>
@@ -677,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Molecular_Dynamics/hugoniostat/" class="md-nav__link">
+      <a href="../../../Molecular_Dynamics/hugoniostat/" class="md-nav__link">
         Hugoniostat
       </a>
     </li>
@@ -724,7 +731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Transition_State_Search/neb/" class="md-nav__link">
+      <a href="../../../Transition_State_Search/neb/" class="md-nav__link">
         Nudged Elastic Band
       </a>
     </li>
@@ -771,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/XC/XCoverview/" class="md-nav__link">
+      <a href="../../../XC/XCoverview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -785,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/XC/XC/" class="md-nav__link">
+      <a href="../../../XC/XC/" class="md-nav__link">
         Controlling XC
       </a>
     </li>
@@ -799,7 +806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/XC/libXC/" class="md-nav__link">
+      <a href="../../../XC/libXC/" class="md-nav__link">
         libXC
       </a>
     </li>
@@ -846,7 +853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Spectral/overview/" class="md-nav__link">
+      <a href="../../../Spectral/overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -860,7 +867,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Spectral/keywords/" class="md-nav__link">
+      <a href="../../../Spectral/keywords/" class="md-nav__link">
         Keywords
       </a>
     </li>
@@ -874,7 +881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Spectral/restarts/" class="md-nav__link">
+      <a href="../../../Spectral/restarts/" class="md-nav__link">
         Restarts
       </a>
     </li>
@@ -893,25 +900,27 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" type="checkbox" id="__nav_2_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" type="checkbox" id="__nav_2_8" checked>
       
       
       
       
         <label class="md-nav__link" for="__nav_2_8">
-          Vibrations
+          Phonons
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Vibrations" data-md-level="2">
+      <nav class="md-nav" aria-label="Phonons" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_8">
           <span class="md-nav__icon md-icon"></span>
-          Vibrations
+          Phonons
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -921,8 +930,198 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Vibrations/overview/" class="md-nav__link">
-        Vibrations
+      <a href="../Introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Running-phonon-calculations/" class="md-nav__link">
+        Running-phonon-calculations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dielectric-properties/" class="md-nav__link">
+        Dielectric-properties
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Thermodynamic-properties/" class="md-nav__link">
+        Thermodynamic-properties
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Plotting-and-analysis-tools/" class="md-nav__link">
+        Plotting-and-analysis-tools
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Running-Large-Calculations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Running-Large-Calculations
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sec:parallelism" class="md-nav__link">
+    Parallel execution
+  </a>
+  
+    <nav class="md-nav" aria-label="Parallel execution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#k-point-and-g-vector-parallelism" class="md-nav__link">
+    k-point and g-vector parallelism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#band-parallelism" class="md-nav__link">
+    band parallelism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perturbation-parallelism" class="md-nav__link">
+    perturbation parallelism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-openmp-parallelism" class="md-nav__link">
+    hybrid OpenMP parallelism
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sec:checkpointing" class="md-nav__link">
+    Checkpointing and Restarting
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Advanced-Topics/" class="md-nav__link">
+        Advanced-Topics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Keyword-Reference/" class="md-nav__link">
+        Keyword-Reference
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bibliography/" class="md-nav__link">
+        Bibliography
       </a>
     </li>
   
@@ -968,7 +1167,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/NMR/NMR_overview/" class="md-nav__link">
+      <a href="../../../NMR/NMR_overview/" class="md-nav__link">
         NMR Overview
       </a>
     </li>
@@ -1015,7 +1214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/EPR/overview/" class="md-nav__link">
+      <a href="../../../EPR/overview/" class="md-nav__link">
         EPR Overview
       </a>
     </li>
@@ -1036,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/XRD/overview/" class="md-nav__link">
+      <a href="../../../XRD/overview/" class="md-nav__link">
         XRD
       </a>
     </li>
@@ -1076,7 +1275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/TDDFT/overview/" class="md-nav__link">
+      <a href="../../../TDDFT/overview/" class="md-nav__link">
         TDDFT Overview
       </a>
     </li>
@@ -1123,7 +1322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Delta_SCF/overview/" class="md-nav__link">
+      <a href="../../../Delta_SCF/overview/" class="md-nav__link">
         Delta SCF Overview
       </a>
     </li>
@@ -1137,7 +1336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Delta_SCF/simple_delta_scf/" class="md-nav__link">
+      <a href="../../../Delta_SCF/simple_delta_scf/" class="md-nav__link">
         Simple Delta SCF
       </a>
     </li>
@@ -1151,7 +1350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Delta_SCF/lin_ex_delta_scf/" class="md-nav__link">
+      <a href="../../../Delta_SCF/lin_ex_delta_scf/" class="md-nav__link">
         Linear expansion DeltaSCF
       </a>
     </li>
@@ -1165,7 +1364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Delta_SCF/mo_delta_scf/" class="md-nav__link">
+      <a href="../../../Delta_SCF/mo_delta_scf/" class="md-nav__link">
         MO Delta SCF
       </a>
     </li>
@@ -1179,7 +1378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Delta_SCF/molpdos/" class="md-nav__link">
+      <a href="../../../Delta_SCF/molpdos/" class="md-nav__link">
         Molecular Projected DOS
       </a>
     </li>
@@ -1226,7 +1425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Pseudopotentials/theory/" class="md-nav__link">
+      <a href="../../../Pseudopotentials/theory/" class="md-nav__link">
         Theory
       </a>
     </li>
@@ -1240,7 +1439,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Pseudopotentials/overview/" class="md-nav__link">
+      <a href="../../../Pseudopotentials/overview/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -1254,7 +1453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Pseudopotentials/reading_headers/" class="md-nav__link">
+      <a href="../../../Pseudopotentials/reading_headers/" class="md-nav__link">
         Headers
       </a>
     </li>
@@ -1268,7 +1467,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Pseudopotentials/otfg_string/" class="md-nav__link">
+      <a href="../../../Pseudopotentials/otfg_string/" class="md-nav__link">
         OTFG string
       </a>
     </li>
@@ -1315,7 +1514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Input_Files/cell_file/" class="md-nav__link">
+      <a href="../../../Input_Files/cell_file/" class="md-nav__link">
         cell File
       </a>
     </li>
@@ -1329,7 +1528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Input_Files/param_file/" class="md-nav__link">
+      <a href="../../../Input_Files/param_file/" class="md-nav__link">
         param File
       </a>
     </li>
@@ -1343,7 +1542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Input_Files/cell_keywords/" class="md-nav__link">
+      <a href="../../../Input_Files/cell_keywords/" class="md-nav__link">
         Cell Keywords
       </a>
     </li>
@@ -1390,7 +1589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Output_Files/output_files/" class="md-nav__link">
+      <a href="../../../Output_Files/output_files/" class="md-nav__link">
         Output Files
       </a>
     </li>
@@ -1437,7 +1636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Tools/tools/" class="md-nav__link">
+      <a href="../../../Tools/tools/" class="md-nav__link">
         Other Codes and Tools
       </a>
     </li>
@@ -1484,7 +1683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Troubleshooting/troubleshooting/" class="md-nav__link">
+      <a href="../../../Troubleshooting/troubleshooting/" class="md-nav__link">
         Common errors
       </a>
     </li>
@@ -1498,7 +1697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../documentation/Troubleshooting/linux_path/" class="md-nav__link">
+      <a href="../../../Troubleshooting/linux_path/" class="md-nav__link">
         Linux help
       </a>
     </li>
@@ -1525,14 +1724,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
@@ -1581,7 +1778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Bonding_and_Charge/charge_density/" class="md-nav__link">
+      <a href="../../../../tutorials/Bonding_and_Charge/charge_density/" class="md-nav__link">
         Plotting Charge Density
       </a>
     </li>
@@ -1595,8 +1792,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Bonding_and_Charge/mulliken_population/" class="md-nav__link">
+      <a href="../../../../tutorials/Bonding_and_Charge/mulliken_population/" class="md-nav__link">
         Population Analysis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tutorials/Bonding_and_Charge/ELF/" class="md-nav__link">
+        ELF
       </a>
     </li>
   
@@ -1614,14 +1825,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
       
       
       
@@ -1643,8 +1852,34 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_1">
+          Plotting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Plotting" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Plotting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../plotting_perl/" class="md-nav__link">
+      <a href="../../../../tutorials/Bands_and_DOS/Plotting/plotting_perl/" class="md-nav__link">
         Plotting - CASTEP tools
       </a>
     </li>
@@ -1656,19 +1891,18 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../../tutorials/Bands_and_DOS/Plotting/plotting_sumo/" class="md-nav__link">
         Plotting - SUMO
       </a>
-      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -1680,7 +1914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../semiconductors/" class="md-nav__link">
+      <a href="../../../../tutorials/Bands_and_DOS/semiconductors/" class="md-nav__link">
         Semiconductors
       </a>
     </li>
@@ -1694,7 +1928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../metals/" class="md-nav__link">
+      <a href="../../../../tutorials/Bands_and_DOS/metals/" class="md-nav__link">
         Metals
       </a>
     </li>
@@ -1708,7 +1942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../magnetic/" class="md-nav__link">
+      <a href="../../../../tutorials/Bands_and_DOS/magnetic/" class="md-nav__link">
         Magnetic Materials
       </a>
     </li>
@@ -1728,8 +1962,55 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Optics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Optics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Optics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
-      <a href="../../dispersion_corrections/castep-ase-dispersion-tutorial/" class="md-nav__link">
+      <a href="../../../../tutorials/Optics/Optics_ani/" class="md-nav__link">
+        Optical Anisotropy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tutorials/dispersion_corrections/castep-ase-dispersion-tutorial/" class="md-nav__link">
         Dispersion corrections
       </a>
     </li>
@@ -1743,84 +2024,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../NEB/neb_tutorial/" class="md-nav__link">
+      <a href="../../../../tutorials/NEB/neb_tutorial/" class="md-nav__link">
         Nudged elastic band
       </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_5">
-          NMR Shielding
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="NMR Shielding" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_5">
-          <span class="md-nav__icon md-icon"></span>
-          NMR Shielding
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../NMR/Example_1_-Ethanol/" class="md-nav__link">
-        Example 1 - Ethanol
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../NMR/Example_2_-Diamond/" class="md-nav__link">
-        Example 2 - Diamond
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../NMR/Examples_3_-Alanine_and_Silicates/" class="md-nav__link">
-        Examples 3 - Alanine and Silicates
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -1841,14 +2047,14 @@
       
       
         <label class="md-nav__link" for="__nav_3_6">
-          Delta SCF
+          NMR Shielding
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Delta SCF" data-md-level="2">
+      <nav class="md-nav" aria-label="NMR Shielding" data-md-level="2">
         <label class="md-nav__title" for="__nav_3_6">
           <span class="md-nav__icon md-icon"></span>
-          Delta SCF
+          NMR Shielding
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1858,8 +2064,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Delta_SCF/simple_delta_scf/" class="md-nav__link">
-        Simple Delta SCF
+      <a href="../../../../tutorials/NMR/Example_1_-Ethanol/" class="md-nav__link">
+        Example 1 - Ethanol
       </a>
     </li>
   
@@ -1872,8 +2078,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Delta_SCF/lin_ex_delta_scf/" class="md-nav__link">
-        Linear expansion DeltaSCF
+      <a href="../../../../tutorials/NMR/Example_2_-Diamond/" class="md-nav__link">
+        Example 2 - Diamond
       </a>
     </li>
   
@@ -1886,8 +2092,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Delta_SCF/molpdos/" class="md-nav__link">
-        Molecular Projected DOS
+      <a href="../../../../tutorials/NMR/Examples_3_-Alanine_and_Silicates/" class="md-nav__link">
+        Examples 3 - Alanine and Silicates
       </a>
     </li>
   
@@ -1916,12 +2122,87 @@
       
       
         <label class="md-nav__link" for="__nav_3_7">
+          Delta SCF
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Delta SCF" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          Delta SCF
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tutorials/Delta_SCF/simple_delta_scf/" class="md-nav__link">
+        Simple Delta SCF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tutorials/Delta_SCF/lin_ex_delta_scf/" class="md-nav__link">
+        Linear expansion DeltaSCF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../tutorials/Delta_SCF/molpdos/" class="md-nav__link">
+        Molecular Projected DOS
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_8" type="checkbox" id="__nav_3_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_8">
           Tools
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Tools" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_7">
+        <label class="md-nav__title" for="__nav_3_8">
           <span class="md-nav__icon md-icon"></span>
           Tools
         </label>
@@ -1933,7 +2214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Tools/elastic_constants/" class="md-nav__link">
+      <a href="../../../../tutorials/Tools/elastic_constants/" class="md-nav__link">
         Elastic Constants
       </a>
     </li>
@@ -1988,7 +2269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/using_devel_codes/" class="md-nav__link">
+      <a href="../../../../developer/using_devel_codes/" class="md-nav__link">
         Using Devel Codes
       </a>
     </li>
@@ -2002,7 +2283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/using_trace/" class="md-nav__link">
+      <a href="../../../../developer/using_trace/" class="md-nav__link">
         Using trace
       </a>
     </li>
@@ -2016,7 +2297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/adding_pair_pots/" class="md-nav__link">
+      <a href="../../../../developer/adding_pair_pots/" class="md-nav__link">
         Adding empirical potentials
       </a>
     </li>
@@ -2030,7 +2311,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/build-system/" class="md-nav__link">
+      <a href="../../../../developer/build-system/" class="md-nav__link">
         Build System
       </a>
     </li>
@@ -2044,7 +2325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/style_guide/" class="md-nav__link">
+      <a href="../../../../developer/style_guide/" class="md-nav__link">
         Style Guide
       </a>
     </li>
@@ -2058,7 +2339,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/adding_testing/" class="md-nav__link">
+      <a href="../../../../developer/adding_testing/" class="md-nav__link">
         Testing
       </a>
     </li>
@@ -2072,7 +2353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/CI/" class="md-nav__link">
+      <a href="../../../../developer/CI/" class="md-nav__link">
         CI System
       </a>
     </li>
@@ -2086,7 +2367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/git_workflow/" class="md-nav__link">
+      <a href="../../../../developer/git_workflow/" class="md-nav__link">
         Git workflow
       </a>
     </li>
@@ -2100,7 +2381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/release_procedure/" class="md-nav__link">
+      <a href="../../../../developer/release_procedure/" class="md-nav__link">
         Release Procedure
       </a>
     </li>
@@ -2132,6 +2413,62 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sec:parallelism" class="md-nav__link">
+    Parallel execution
+  </a>
+  
+    <nav class="md-nav" aria-label="Parallel execution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#k-point-and-g-vector-parallelism" class="md-nav__link">
+    k-point and g-vector parallelism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#band-parallelism" class="md-nav__link">
+    band parallelism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perturbation-parallelism" class="md-nav__link">
+    perturbation parallelism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-openmp-parallelism" class="md-nav__link">
+    hybrid OpenMP parallelism
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sec:checkpointing" class="md-nav__link">
+    Checkpointing and Restarting
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2144,9 +2481,195 @@
                 
 
 
-  <h1>Plotting - SUMO</h1>
+  <h1>Running-Large-Calculations</h1>
 
-<p>This is stub for <a href="https://github.com/ajjackson/castep-sumo-tutorial/blob/master/castep-sumo.org">https://github.com/ajjackson/castep-sumo-tutorial/blob/master/castep-sumo.org</a></p>
+<p>Phonon calculations even on small crystalline systems typically require
+many times the CPU resources of a ground state calculation. DFPT
+calculations of phonon dispersion compute dynamical matrices at a number
+of phonon wavevectors, each of which contains calculations of several
+perturbations. Each perturbation will typically require a large k-point
+set due to symmetry breaking by the perturbation. If the supercell
+method is used, converged calculations require a system of a typical
+size of a few hundred atoms, and many perturbations, although the
+k-point set used is smaller. Consequently, calculations on systems of
+scientific interest frequently require departmental, university or
+national-level supercomputing facilities, usually parallel cluster class
+machines.</p>
+<p>Much of the advice for effective use of cluster or supercomputer class
+resources is the same as for ground-state or other types of CASTEP
+calculations, but there are a few special considerations for phonon
+calculations, set out below. Among the particularly relevant general
+items are the choice of memory/speed tradeoff; usually the best approach
+is to select the highest speed option <code>opt_strategy_bias : 3</code><sup id="fnref:20"><a class="footnote-ref" href="#fn:20">1</a></sup> which
+retains wavefunction coefficients in memory rather than paging to disk.
+For large calculations it is very frequently the case that that the
+memory requirement (in particular of the wavefunctions) is the most
+important consideration in choosing a parallel distribution. If a run
+fails due to exceeding the available memory per node, the processor
+count requested should be increased to distribute the wavefunction
+arrays across a larger set of processors, reducing the memory/processor
+requirement.</p>
+<p>If increasing the degree of parallel distribution is not possible,
+<code>opt_strategy_bias</code> can be reduced to 0<sup id="fnref:21"><a class="footnote-ref" href="#fn:21">2</a></sup>, which will page
+wavefunctions to disk. In that case it is vital to ensure that the
+temporary scratch files are written to high-speed disk (either local or
+a high-performance filesystem). This is usually controlled by setting
+the environment variable <code>CASTEP_PAGE_TMPDIR</code> to point to a directory on
+an appropriate filesystem<sup id="fnref:22"><a class="footnote-ref" href="#fn:22">3</a></sup>.</p>
+<h3 id="sec:parallelism">Parallel execution</h3>
+<p>CASTEP implements a parallel strategy based on a hierarchical
+distribution of wavefunction data by k-points, plane-waves, bands and
+OpenMP across processors<sup id="fnref:23"><a class="footnote-ref" href="#fn:23">4</a></sup>. In a phonon calculation this is used to
+speed up the execution within each perturbation and q-point which are
+still executed serially in sequence. Normally an efficient distribution
+is chosen automatically providing that the <code>data_distribution</code> parameter
+is not changed from the default value <code>MIXED</code>.</p>
+<p>K-points, plane-wave, band and task farm parallelism are all implemented
+using the <a href="https://hpc-tutorials.llnl.gov/mpi">Message-Passing
+Interface</a> (MPI) system, and CASTEP
+must usually be launched by starting the executable using the <code>mpiexec</code>
+or similar commands, viz</p>
+<blockquote>
+<p><code>mpiexec -n 1024 castep.mpi &lt;seedname&gt;</code></p>
+</blockquote>
+<p>which will start 1024 MPI processes and distribute the calculation
+across them.</p>
+<p>By contrast <a href="https://www.openmp.org/">OpenMP</a> parallelism is is
+activated by setting the environment variable
+<code>CASTEP_NUM_THREADS : &lt;n&gt;</code>, which may be done before the <code>mpiexec</code>
+command to activate hybrid MPI+OpenMP mode.</p>
+<h4 id="k-point-and-g-vector-parallelism">k-point and g-vector parallelism</h4>
+<p>To best exploit the k-point component of the parallel distribution, the
+total number of the processors requested should be a multiple of the
+number of electronic k-points or have a large common divisor. The
+parallel distribution is printed to the <code>.castep</code> file, where in this
+example four k-points are used:</p>
+<blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Calculation parallelised over   32 nodes.
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>K-points are distributed over    4 groups, each containing    8 nodes.
+</code></pre></div>
+</blockquote>
+<p>For non-phonon CASTEP calculations it is sufficient to choose a
+processor count which is a multiple of <span class="arithmatex"><span class="MathJax_Preview">N_{\text{k}}</span><script type="math/tex">N_{\text{k}}</script></span>, and that the
+degree of plane-wave-parallelism is not so large that efficiency is
+lost. However the choice of processor number in a phonon calculation is
+severely complicated by the fact that the number of electronic k-points
+in the irreducible Brillouin Zone changes during the run as the
+perturbations and phonon q-points have different symmetries. It is not
+convenient to compute the number for any perturbation individually
+without a detailed analysis, and some compromise between all of the
+perturbations should be chosen. To assist in this choice a utility
+program, <code>phonon_kpoints</code> is provided. This reads the configuration of
+the proposed calculation from the <code>.cell</code> file and is simply invoked by</p>
+<blockquote>
+<p><code>phonon_kpoints</code> <em>seedname</em></p>
+</blockquote>
+<p>It then determines and prints the k-point counts, and provides a “figure
+of merit” for a range of possible processor counts. On most parallel
+architectures the efficiency of the plane-wave parallelism becomes
+unacceptable if there are fewer than around 200 plane-waves per node. It
+is usually possible to choose a processor count which allows a highly
+parallel run while keeping the number of plane-waves per node
+considerably higher than this.</p>
+<h4 id="band-parallelism">band parallelism</h4>
+<p>From CASTEP version 24.1 band parallelism is implemented for FD
+calculations, but not yet DFPT. This may be enabled using a “devel-code”
+string in the <code>.param</code> file<sup id="fnref:24"><a class="footnote-ref" href="#fn:24">5</a></sup></p>
+<blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>%block DEVEL_CODE
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>PARALLEL:NBANDS=8:ENDPARALLEL
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>%endblock DEVEL_CODE
+</code></pre></div>
+</blockquote>
+<p>will attempt to set up 8-way band parallelism in addition to k-point and
+g-vector.</p>
+<h4 id="perturbation-parallelism">perturbation parallelism</h4>
+<p>From CASTEP release 24.1, a further level of parallelism called
+task-farming may be used to distribute perturbations across processors.
+This is set up and run in the same manner as for PIMD or NEB
+calculations by setting parameters file keyword <code>num_farms : &lt;n&gt;</code>. The
+value of <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> should not be too large, as the performance will be limited
+by load-balance issues, and in any case never greater than the number of
+perturbations. This will produce <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> output files named</p>
+<blockquote>
+<p><code>&lt;seedname&gt;_farm00&lt;n&gt;.castep</code></p>
+</blockquote>
+<p>instead of the usual, single <code>.castep</code> file. Of these,
+<code>&lt;seedname&gt;_farm001.castep</code> will contain the calculated final
+frequencies, Born effective charges etc. but a single instance of the
+<code>.phonon</code>, <code>.efield</code>, <code>.phonon_dos</code> and <code>.check</code> files are written as
+with other parallel schemes.</p>
+<h4 id="hybrid-openmp-parallelism">hybrid OpenMP parallelism</h4>
+<p>In addition to the above-described parallel distribution strategies -
+all based on MPI parallelism, CASTEP also offers a degree of OpenMP
+parallelism<sup id="fnref:25"><a class="footnote-ref" href="#fn:25">6</a></sup>. This can speed up some operations such as matrix
+diagonalisations and is activated by setting the environment variable
+<code>CASTEP_NUM_THREADS : &lt;n&gt;</code> where <span class="arithmatex"><span class="MathJax_Preview">n</span><script type="math/tex">n</script></span> in the range 2-16 is most effective
+(only a modest speed-up is accessible using OpenMP). However this can
+give a useful gain in addition to MPI parallelism especially in the case
+where compute nodes must be underpopulated because of memory
+requirements.</p>
+<h3 id="sec:checkpointing">Checkpointing and Restarting</h3>
+<p>Even with a parallel computer, it is frequently the case that a
+calculation can not be completed in a single run. Many machines have a
+maximum time limit on a batch queue which may be too short. On desktop
+machines, run time may be limited by reliability and uptime limitations.
+CASTEP is capable of periodically writing “checkpoint” files containing
+a complete record of the state of the calculation and of restarting and
+completing a calculation from such a checkpoint file. In particular
+dynamical matrices from complete q-points, and partial dynamical
+matrices from each perturbation are saved and can be used in a restart
+calculation. To enable the writing of periodic checkpoint files, set the
+parameter</p>
+<blockquote>
+<p><code>backup_interval 3600</code></p>
+</blockquote>
+<p>which will write a checkpoint file named <em>seedname</em><code>.check</code> every hour
+(the time is specified in seconds) or on completion of the next
+perturbation thereafter. To restart a calculation, set the parameter</p>
+<blockquote>
+<p><code>continuation : default</code></p>
+</blockquote>
+<p>in the <code>.param</code> file before resubmitting the job. This will attempt to
+read <em>seedname</em><code>.check</code> and restart the calculation from there.
+Alternatively the full filename of a checkpoint file may be given as
+argument to the <code>continuation</code> keyword to read an explicitly named file.</p>
+<p>At the end of the calculation a checkpoint file <em>seedname</em><code>.check</code> is
+always written. As with the intermediate checkpoint files this contains
+a (now complete) record of the dynamical matrices or force constant
+matrix resulting from phonon calculation. This may be analysed in a
+post-processing phase using the <code>phonons</code> utility.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:20">
+<p>equivalent to <code>opt_strategy : SPEED</code>&#160;<a class="footnote-backref" href="#fnref:20" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:21">
+<p>equivalent to <code>opt_strategy : MEMORY</code>&#160;<a class="footnote-backref" href="#fnref:21" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:22">
+<p>If <code>CASTEP_PAGE_TMPDIR</code> is not set, the code falls back to the
+value of <code>CASTEP_TMPDIR</code>.&#160;<a class="footnote-backref" href="#fnref:22" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:23">
+<p>k-points, plane-waves, bands correspond to indices of the
+wavefunction data, so parallelism in any of these will distribute
+the wavefunctions across MPI processes and reduce the memory/process
+requirement.&#160;<a class="footnote-backref" href="#fnref:23" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:24">
+<p>This activation mechanism will be replaced by a “first-class”
+parameter to set parallelism in future releases of CASTEP. N.B.
+<code>DEVEL_CODE</code> is the only <code>%block</code> allowed in the <code>.param</code> file.&#160;<a class="footnote-backref" href="#fnref:24" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:25">
+<p>See <a href="http://www.archer.ac.uk/community/eCSE/eCSE01-017/eCSE01-017_Final_Report_technical.pdf">eCSE
+report</a>
+for a description of the implementation and benchmark results&#160;<a class="footnote-backref" href="#fnref:25" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
               
             </article>
@@ -2160,7 +2683,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../plotting_perl/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Plotting - CASTEP tools" rel="prev">
+        <a href="../Plotting-and-analysis-tools/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Plotting-and-analysis-tools" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -2169,20 +2692,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Plotting - CASTEP tools
+              Plotting-and-analysis-tools
             </div>
           </div>
         </a>
       
       
         
-        <a href="../semiconductors/" class="md-footer__link md-footer__link--next" aria-label="Next: Semiconductors" rel="next">
+        <a href="../Advanced-Topics/" class="md-footer__link md-footer__link--next" aria-label="Next: Advanced-Topics" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Semiconductors
+              Advanced-Topics
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -2212,10 +2735,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.annotate"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.3a4b43e5.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.3a4b43e5.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
