@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.2.16">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-8.2.16">
     
     
       
@@ -287,7 +287,7 @@
   
     <li class="md-nav__item">
       <a href="../../Getting_Started/basic_cell_file/" class="md-nav__link">
-        cell File
+        Cell file
       </a>
     </li>
   
@@ -301,7 +301,7 @@
   
     <li class="md-nav__item">
       <a href="../../Getting_Started/basic_param_file/" class="md-nav__link">
-        param File
+        Param file
       </a>
     </li>
   
@@ -1440,7 +1440,7 @@
   
     <li class="md-nav__item">
       <a href="../../Input_Files/cell_file/" class="md-nav__link">
-        cell File
+        Cell File
       </a>
     </li>
   
@@ -1454,7 +1454,7 @@
   
     <li class="md-nav__item">
       <a href="../../Input_Files/param_file/" class="md-nav__link">
-        param File
+        Param File
       </a>
     </li>
   
@@ -1942,6 +1942,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../tutorials/Optics/Optics/" class="md-nav__link">
+        Optics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/Optics/Optics_aluminium/" class="md-nav__link">
+        Optics - Aluminium
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../tutorials/Optics/Optics_ani/" class="md-nav__link">
         Optical Anisotropy
       </a>
@@ -1991,6 +2019,20 @@
     <li class="md-nav__item">
       <a href="../../../tutorials/Coreloss/Coreloss/" class="md-nav__link">
         Coreloss
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/Optics/JDOS/" class="md-nav__link">
+        JDOS
       </a>
     </li>
   
@@ -2197,12 +2239,73 @@
       
       
         <label class="md-nav__link" for="__nav_3_9">
+          GA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="GA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_9">
+          <span class="md-nav__icon md-icon"></span>
+          GA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/GA/Silicon/" class="md-nav__link">
+        Silicon
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/GA/Introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_10" type="checkbox" id="__nav_3_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_10">
           Tools
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Tools" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_9">
+        <label class="md-nav__title" for="__nav_3_10">
           <span class="md-nav__icon md-icon"></span>
           Tools
         </label>
@@ -2339,7 +2442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/adding_testing/" class="md-nav__link">
+      <a href="../../../developer/test_suite/" class="md-nav__link">
         Testing
       </a>
     </li>
@@ -2499,9 +2602,16 @@ can run a CASTEP calculation with this using
 </code></pre></div></p>
 </li>
 </ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When specifying parameters within the <code>xc_definition</code> block, one should not
+specify separator characters such <code>:</code> or <code>=</code> between the keyword and parameters.
+In addition, note that functional names within XC definition are <strong>case-sensitive</strong>
+and should thus be entered in uppercase.</p>
+</div>
 <p>Examples:<br />
 1. B3LYP
-Firstly you cansimply use <code>xc_functional : B3LYP</code>, however
+Firstly you can simply use <code>xc_functional : B3LYP</code>, however
 <code>B3LYP</code> is a hybrid functional consisting of a mixture of
 Hartree-Fock, LDA and B88 exchange, LYP and LDA correlation. This
 functional can be specified component by component:

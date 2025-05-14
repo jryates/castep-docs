@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-8.2.16">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-8.2.16">
     
     
       
@@ -292,7 +292,7 @@
   
     <li class="md-nav__item">
       <a href="../../Getting_Started/basic_cell_file/" class="md-nav__link">
-        cell File
+        Cell file
       </a>
     </li>
   
@@ -306,7 +306,7 @@
   
     <li class="md-nav__item">
       <a href="../../Getting_Started/basic_param_file/" class="md-nav__link">
-        param File
+        Param file
       </a>
     </li>
   
@@ -1435,7 +1435,7 @@
   
     <li class="md-nav__item">
       <a href="../../Input_Files/cell_file/" class="md-nav__link">
-        cell File
+        Cell File
       </a>
     </li>
   
@@ -1449,7 +1449,7 @@
   
     <li class="md-nav__item">
       <a href="../../Input_Files/param_file/" class="md-nav__link">
-        param File
+        Param File
       </a>
     </li>
   
@@ -2053,6 +2053,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../tutorials/Optics/Optics/" class="md-nav__link">
+        Optics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/Optics/Optics_aluminium/" class="md-nav__link">
+        Optics - Aluminium
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../tutorials/Optics/Optics_ani/" class="md-nav__link">
         Optical Anisotropy
       </a>
@@ -2102,6 +2130,20 @@
     <li class="md-nav__item">
       <a href="../../../tutorials/Coreloss/Coreloss/" class="md-nav__link">
         Coreloss
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/Optics/JDOS/" class="md-nav__link">
+        JDOS
       </a>
     </li>
   
@@ -2308,12 +2350,73 @@
       
       
         <label class="md-nav__link" for="__nav_3_9">
+          GA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="GA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_9">
+          <span class="md-nav__icon md-icon"></span>
+          GA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/GA/Silicon/" class="md-nav__link">
+        Silicon
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tutorials/GA/Introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_10" type="checkbox" id="__nav_3_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_10">
           Tools
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Tools" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_9">
+        <label class="md-nav__title" for="__nav_3_10">
           <span class="md-nav__icon md-icon"></span>
           Tools
         </label>
@@ -2450,7 +2553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../developer/adding_testing/" class="md-nav__link">
+      <a href="../../../developer/test_suite/" class="md-nav__link">
         Testing
       </a>
     </li>
@@ -2644,7 +2747,7 @@
 <h2 id="general-postprocessing">General Postprocessing</h2>
 <ul>
 <li><a href="https://github.com/oerc0122/castep_outputs">castep-outputs</a> is a Python package to read and parse all of the output files of CASTEP into a standard form. This is the recommended CASTEP output parser interface. A simple CLI tool is provided to dump a <code>.json</code> file, but its main use is intended as a library to be called from future analysis codes. This is the recommended interface for developers of Python analysis tools. Currently this reads and parses all CASTEP text-format files but not the binary ones.</li>
-<li><a href="ttps://github.com/zhubonan/castepxbin.git">castepxbin</a> is a collection of readers for CASTEP binary output files <code>.check</code>,<code>.castep_bin</code>, <code>.orbitals</code> etc.</li>
+<li><a href="https://github.com/zhubonan/castepxbin.git">castepxbin</a> is a collection of readers for CASTEP binary output files <code>.check</code>,<code>.castep_bin</code>, <code>.orbitals</code> etc.</li>
 <li><a href="http://www.c2x.org.uk/">c2x</a> (also bundled with the CASTEP distribution) can read CASTEP binary output files <code>.check</code>,<code>.castep_bin</code>,<code>.orbitals</code> and extract cell geometry data, electron densities , wavefunctions and prepare for visualization and further analysis. It can interpolate densities via a combination of trilinear and Fourier interpolation, integrate densities and calculate their dipole moments, and analyse bands for inversion symmetry. It can be used to produce output formats compatible with XCrysDen, VESTA, VMD and Jmol amongst others, and can also produce 1D data in a format suitable for gnuplot.</li>
 </ul>
 <h2 id="spectroscopy-modelling-tools">Spectroscopy Modelling Tools</h2>
